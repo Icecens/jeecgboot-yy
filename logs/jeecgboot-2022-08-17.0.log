@@ -1,0 +1,1145 @@
+2022-08-17 00:07:54.257 [http-nio-8080-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:74 - 【websocket消息】连接断开，总数为:0
+2022-08-17 00:07:56.618 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660664257857 paused.
+2022-08-17 00:07:57.343 [SpringApplicationShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:847 - Shutting down Quartz Scheduler
+2022-08-17 00:07:57.343 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660664257857 shutting down.
+2022-08-17 00:07:57.344 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660664257857 paused.
+2022-08-17 00:07:57.357 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660664257857 shutdown complete.
+2022-08-17 00:07:57.365 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:217 - dynamic-datasource start closing ....
+2022-08-17 00:07:57.369 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2029 - {dataSource-1} closing ...
+2022-08-17 00:07:57.372 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2101 - {dataSource-1} closed
+2022-08-17 00:07:57.373 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:221 - dynamic-datasource all closed success,bye
+2022-08-17 20:46:20.805 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.2.3.Final
+2022-08-17 20:46:20.817 [main] INFO  org.jeecg.JeecgSystemApplication:55 - Starting JeecgSystemApplication using Java 1.8.0_261 on LAPTOP-NF4LFBA5 with PID 14540 (D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\jeecg-module-system\jeecg-system-biz\target\classes started by YY in D:\code1\javaweb\jeecgboot-yy\jeecgboot-back)
+2022-08-17 20:46:20.818 [main] INFO  org.jeecg.JeecgSystemApplication:646 - The following 1 profile is active: "dev"
+2022-08-17 20:46:26.246 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-17 20:46:26.250 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-17 20:46:26.514 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 240 ms. Found 0 Redis repository interfaces.
+2022-08-17 20:46:26.702 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:23 -  ******************* init miniDao config [ begin ] *********************** 
+2022-08-17 20:46:26.702 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:25 -  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*
+2022-08-17 20:46:26.704 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:42 -  *******************  init miniDao config  [ end ] *********************** 
+2022-08-17 20:46:26.862 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2022-08-17 20:46:26.864 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2022-08-17 20:46:26.864 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2022-08-17 20:46:26.865 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2022-08-17 20:46:26.865 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2022-08-17 20:46:26.866 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2022-08-17 20:46:26.866 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2022-08-17 20:46:26.867 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2022-08-17 20:46:26.867 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2022-08-17 20:46:26.867 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2022-08-17 20:46:27.269 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#9' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.276 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportShareDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.277 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#8' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.278 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportMapDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.279 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#7' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.280 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportLinkDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.282 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#6' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.283 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDictItemDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.284 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#5' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.285 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDictDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.286 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#4' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.287 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbParamDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.288 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#3' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.289 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbFieldDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.290 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#2' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.292 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.293 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#1' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.295 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDataSourceDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.296 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.297 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.316 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.319 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.346 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.347 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.352 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'management.metrics.export.prometheus-org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.356 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusPropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.359 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'collectorRegistry' of type [io.prometheus.client.CollectorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.361 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.362 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.396 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusMeterRegistry' of type [io.micrometer.prometheus.PrometheusMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.399 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceMetrics' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration$$Lambda$435/481952545] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.522 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.637 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.642 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jeecgBaseConfig' of type [org.jeecg.config.JeecgBaseConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.644 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroConfig' of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$55b4a4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.985 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:27.993 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$fad7323] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:28.001 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:28.056 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroRealm' of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:28.971 [main] INFO  org.jeecg.config.shiro.ShiroConfig:226 - ===============(1)创建缓存管理器RedisCacheManager
+2022-08-17 20:46:28.973 [main] INFO  org.jeecg.config.shiro.ShiroConfig:244 - ===============(2)创建RedisManager,连接Redis..
+2022-08-17 20:46:28.979 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:28.990 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:29.027 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:29.057 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$b937e002] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:29.062 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 20:46:29.572 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-08-17 20:46:29.587 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-17 20:46:29.587 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-08-17 20:46:29.587 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-08-17 20:46:29.900 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring embedded WebApplicationContext
+2022-08-17 20:46:29.901 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 9018 ms
+2022-08-17 20:46:30.120 [main] INFO  o.j.m.jmreport.config.init.JimuReportConfiguration:99 -  Init JimuReport Config [ Token Interceptor & Resource Locations ] 
+2022-08-17 20:46:30.974 [main] INFO  com.alibaba.druid.pool.DruidDataSource:994 - {dataSource-1,master} inited
+2022-08-17 20:46:30.976 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:132 - dynamic-datasource - load a datasource named [master] success
+2022-08-17 20:46:30.977 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:237 - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2022-08-17 20:46:34.832 [main] INFO  org.jeecg.common.modules.redis.config.RedisConfig:56 -  --- redis config init --- 
+2022-08-17 20:46:36.280 [main] INFO  org.quartz.impl.StdSchedulerFactory:1220 - Using default implementation for ThreadExecutor
+2022-08-17 20:46:36.284 [main] INFO  org.quartz.simpl.SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2022-08-17 20:46:36.296 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-08-17 20:46:36.296 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.2 created.
+2022-08-17 20:46:36.300 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2022-08-17 20:46:36.303 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2022-08-17 20:46:36.304 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MyScheduler' with instanceId 'LAPTOP-NF4LFBA51660740396282'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2022-08-17 20:46:36.304 [main] INFO  org.quartz.impl.StdSchedulerFactory:1374 - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+2022-08-17 20:46:36.306 [main] INFO  org.quartz.impl.StdSchedulerFactory:1378 - Quartz scheduler version: 2.3.2
+2022-08-17 20:46:36.306 [main] INFO  org.quartz.core.QuartzScheduler:2293 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@110318a7
+2022-08-17 20:46:38.348 [main] INFO  o.j.modules.jmreport.config.JmReportExecutorConfig:42 -  Init JimuReport Config [ 线程池 ] 
+2022-08-17 20:46:39.653 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-08-17 20:46:39.802 [main] INFO  org.jeecg.config.init.CodeGenerateDbConfig:46 -  Init CodeGenerate Config [ Get Db Config From application.yml ] 
+2022-08-17 20:46:41.243 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-08-17 20:46:41.455 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-17 20:46:41.487 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path '/jeecg-boot'
+2022-08-17 20:46:43.357 [cluster-ClusterId{value='62fce331b5cd0f3b87a63a05', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76 - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 4 common frames omitted
+2022-08-17 20:46:44.193 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:734 - Will start Quartz Scheduler [MyScheduler] in 1 seconds
+2022-08-17 20:46:44.210 [main] INFO  org.jeecg.JeecgSystemApplication:61 - Started JeecgSystemApplication in 24.443 seconds (JVM running for 27.08)
+2022-08-17 20:46:44.218 [main] INFO  org.jeecg.JeecgSystemApplication:37 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8080/jeecg-boot/
+	External: 	http://192.168.170.1:8080/jeecg-boot/
+	Swagger文档: 	http://192.168.170.1:8080/jeecg-boot/doc.html
+----------------------------------------------------------
+2022-08-17 20:46:45.195 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:750 - Starting Quartz Scheduler now, after delay of 1 seconds
+2022-08-17 20:46:45.654 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3644 - ClusterManager: detected 1 failed or restarted instances.
+2022-08-17 20:46:45.655 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3503 - ClusterManager: Scanning for instance "LAPTOP-NF4LFBA51660664257857"'s failed in-progress jobs.
+2022-08-17 20:46:45.662 [Quartz Scheduler [MyScheduler]] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660740396282 started.
+2022-08-17 20:46:46.241 [RMI TCP Connection(5)-192.168.170.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-17 20:46:46.241 [RMI TCP Connection(5)-192.168.170.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-08-17 20:46:46.243 [RMI TCP Connection(5)-192.168.170.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 2 ms
+2022-08-17 20:47:20.912 [http-nio-8080-exec-1] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：14ms
+2022-08-17 20:47:25.085 [http-nio-8080-exec-2] INFO  org.jeecg.config.shiro.ShiroRealm:97 - ————————身份认证失败——————————IP地址:  127.0.0.1，URL:/jeecg-boot/sys/permission/getPermCode
+2022-08-17 20:47:25.166 [http-nio-8080-exec-3] INFO  org.jeecg.config.shiro.ShiroRealm:97 - ————————身份认证失败——————————IP地址:  127.0.0.1，URL:/jeecg-boot/sys/permission/getUserPermissionByToken
+2022-08-17 20:47:37.838 [http-nio-8080-exec-4] INFO  o.jeecg.modules.system.controller.LoginController:488 - 获取验证码，Redis checkCode = F0Vb，key = 1629428467008
+2022-08-17 20:47:45.651 [http-nio-8080-exec-5] INFO  o.j.c.modules.redis.writer.JeecgRedisCacheWriter:113 - redis remove key:sys:cache:encrypt:user::admin
+2022-08-17 20:47:46.412 [http-nio-8080-exec-5] WARN  o.j.modules.jmreport.desreport.express.ExpressUtil:244 - 类没定义！
+2022-08-17 20:47:46.806 [http-nio-8080-exec-6] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：1ms
+2022-08-17 20:47:59.056 [http-nio-8080-exec-9] INFO  org.jeecg.config.filter.WebsocketFilter:39 - websocket连接 Token安全校验，Path = /jeecg-boot/websocket/e9ca23d68d884d4ebb19d07889727dae，token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjA3NDQwNjUsInVzZXJuYW1lIjoiYWRtaW4ifQ.7JWrbk5ZZ9k_pp_bBRkowIAXVDFggZs7BZPIXNseTZ4
+2022-08-17 20:47:59.177 [http-nio-8080-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:64 - 【websocket消息】有新的连接，总数为:1
+2022-08-17 20:48:06.523 [http-nio-8080-exec-2] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /sys/user/list ; 请求类型 >> GET . 
+2022-08-17 20:48:06.586 [http-nio-8080-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[birthday, relTenantIds, activitiSync, userIdentity, delFlag, workNo, password, post, updateBy, orgCode, id, email, clientId, salt, sex, departIds, telephone, updateTime, avatar, realname, createBy, createTime, phone, orgCodeTxt, status, username]
+2022-08-17 20:48:06.618 [http-nio-8080-exec-2] INFO  o.j.modules.system.controller.SysUserController:158 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@6ffccbe6
+2022-08-17 20:48:06.618 [http-nio-8080-exec-2] INFO  org.jeecg.common.aspect.DictAspect:111 -  __ 进入字典翻译切面 DictAspect —— 
+2022-08-17 20:48:06.714 [http-nio-8080-exec-2] INFO  org.jeecg.common.aspect.DictAspect:277 - translateDictFromTableByKeys.dictCode:sys_depart,depart_name,id
+2022-08-17 20:48:06.714 [http-nio-8080-exec-2] INFO  org.jeecg.common.aspect.DictAspect:278 - translateDictFromTableByKeys.values:c6d7cb4deeac411cb3384b1b31278596
+2022-08-17 20:48:06.718 [http-nio-8080-exec-2] INFO  org.jeecg.common.aspect.DictAspect:280 - translateDictFromTableByKeys.result:[DictModel(value=c6d7cb4deeac411cb3384b1b31278596, text=北京国炬软件)]
+2022-08-17 20:48:06.721 [http-nio-8080-exec-2] INFO  org.jeecg.common.aspect.DictAspect:277 - translateDictFromTableByKeys.dictCode:sys_position,name,code
+2022-08-17 20:48:06.722 [http-nio-8080-exec-2] INFO  org.jeecg.common.aspect.DictAspect:278 - translateDictFromTableByKeys.values:总经理,devleader
+2022-08-17 20:48:06.735 [http-nio-8080-exec-2] INFO  org.jeecg.common.aspect.DictAspect:280 - translateDictFromTableByKeys.result:[DictModel(value=devleader, text=研发部经理), DictModel(value=总经理, text=laozong)]
+2022-08-17 20:48:22.690 [http-nio-8080-exec-3] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=phone, fieldVal=18611111111, dataId=e9ca23d68d884d4ebb19d07889727dae)
+2022-08-17 20:48:41.762 [http-nio-8080-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[createBy, createTime, updateBy, roleCode, roleName, description, updateTime, id]
+2022-08-17 20:48:50.195 [http-nio-8080-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 20:48:50.198 [http-nio-8080-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 20:49:31.334 [http-nio-8080-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 20:49:31.337 [http-nio-8080-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 20:50:22.877 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 20:50:22.880 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 20:50:27.301 [http-nio-8080-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 20:50:27.303 [http-nio-8080-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 20:54:37.667 [http-nio-8080-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 20:54:37.668 [http-nio-8080-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 20:54:46.277 [http-nio-8080-exec-6] INFO  org.jeecg.modules.jmreport.desreport.a.a:610 -  JmReport Base Config JSON : org.jeecg.modules.jmreport.config.JmReportBaseConfig$$EnhancerBySpringCGLIB$$46846b47@4ac3173f
+2022-08-17 20:54:46.278 [http-nio-8080-exec-6] INFO  org.jeecg.modules.jmreport.desreport.a.a:611 - freemarker base: /jeecg-boot
+2022-08-17 20:54:46.279 [http-nio-8080-exec-6] INFO  org.jeecg.modules.jmreport.desreport.a.a:612 - freemarker customPrePath: 
+2022-08-17 20:54:47.225 [http-nio-8080-exec-8] INFO  org.jeecgframework.minidao.aop.MiniDaoHandler:424 - page countsql===> SELECT count(0) FROM jimu_report jr WHERE 1 = 1 AND jr.TYPE = :jimuReport.type AND jr.DEL_FLAG = :jimuReport.delFlag AND jr.TEMPLATE = :jimuReport.template
+2022-08-17 20:54:47.253 [http-nio-8080-exec-8] INFO  org.jeecgframework.minidao.aop.MiniDaoHandler:435 - page executeSql===> SELECT jr.ID,jr.NAME,jr.CODE,jr.TYPE,jr.template,jr.thumb FROM jimu_report jr WHERE 1=1 and jr.TYPE = :jimuReport.type and jr.DEL_FLAG = :jimuReport.delFlag and jr.TEMPLATE = :jimuReport.template ORDER BY jr.create_time DESC
+ LIMIT 10 
+2022-08-17 20:54:59.210 [http-nio-8080-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[ruleCode, createBy, createTime, updateBy, ruleName, updateTime, id, ruleClass, ruleParams]
+2022-08-17 20:55:06.205 [http-nio-8080-exec-4] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=phone, fieldVal=18611111111, dataId=e9ca23d68d884d4ebb19d07889727dae)
+2022-08-17 20:55:08.875 [http-nio-8080-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[ruleCode, createBy, createTime, updateBy, ruleJson, ruleName, updateTime, id, ruleDescription]
+2022-08-17 20:55:17.783 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:pid, rule:=, value:0
+2022-08-17 20:55:17.784 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[createBy, code, createTime, updateBy, hasChild, name, sysOrgCode, pid, updateTime, id]
+2022-08-17 20:55:21.090 [http-nio-8080-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:pid, rule:=, value:1230769196661510146
+2022-08-17 20:55:24.413 [http-nio-8080-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[createBy, createTime, dictCode, updateBy, description, dictName, updateTime, id, delFlag, type]
+2022-08-17 20:55:31.408 [http-nio-8080-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[createBy, createTime, dictCode, updateBy, description, dictName, updateTime, id, delFlag, type]
+2022-08-17 20:55:36.712 [http-nio-8080-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[createBy, createTime, dictCode, updateBy, description, dictName, updateTime, id, delFlag, type]
+2022-08-17 20:55:41.023 [http-nio-8080-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[createBy, createTime, dictCode, updateBy, description, dictName, updateTime, id, delFlag, type]
+2022-08-17 20:55:43.408 [http-nio-8080-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[createBy, createTime, dictCode, updateBy, description, dictName, updateTime, id, delFlag, type]
+2022-08-17 20:55:46.716 [http-nio-8080-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:dict_id, rule:=, value:3d9a351be3436fbefb1307d4cfb49bf2
+2022-08-17 20:55:46.732 [http-nio-8080-exec-3] INFO  org.jeecg.common.aspect.DictAspect:111 -  __ 进入字典翻译切面 DictAspect —— 
+2022-08-17 20:55:46.735 [http-nio-8080-exec-3] INFO  org.jeecg.common.aspect.DictAspect:306 - translateManyDict.dictCodes:dict_item_status
+2022-08-17 20:55:46.735 [http-nio-8080-exec-3] INFO  org.jeecg.common.aspect.DictAspect:307 - translateManyDict.values:1
+2022-08-17 20:55:46.742 [http-nio-8080-exec-3] INFO  org.jeecg.common.aspect.DictAspect:309 - translateManyDict.result:{dict_item_status=[DictModel(value=1, text=启用)]}
+2022-08-17 20:56:53.173 [http-nio-8080-exec-2] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_dict, fieldName=dict_code, fieldVal=sex, dataId=3d9a351be3436fbefb1307d4cfb49bf2)
+2022-08-17 20:57:37.508 [http-nio-8080-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:pid, rule:=, value:0
+2022-08-17 20:57:37.509 [http-nio-8080-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[createBy, code, createTime, updateBy, hasChild, name, sysOrgCode, pid, updateTime, id]
+2022-08-17 20:57:47.758 [http-nio-8080-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 20:57:47.760 [http-nio-8080-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 20:58:27.355 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 20:58:27.356 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 20:58:33.142 [http-nio-8080-exec-2] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /online/cgform/api/getData/f314cfd34aea4a6aacaa10fe5adbf828 ; 请求类型 >> GET . 
+2022-08-17 21:04:09.709 [http-nio-8080-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:04:09.710 [http-nio-8080-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:05:29.497 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:05:29.498 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:05:36.812 [http-nio-8080-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:05:36.813 [http-nio-8080-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:05:39.753 [http-nio-8080-exec-1] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /online/cgform/api/getData/f314cfd34aea4a6aacaa10fe5adbf828 ; 请求类型 >> GET . 
+2022-08-17 21:06:03.585 [http-nio-8080-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:06:03.587 [http-nio-8080-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:06:46.331 [http-nio-8080-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:06:46.333 [http-nio-8080-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:06:50.114 [http-nio-8080-exec-8] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /online/cgform/api/getData/f314cfd34aea4a6aacaa10fe5adbf828 ; 请求类型 >> GET . 
+2022-08-17 21:07:15.377 [http-nio-8080-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:07:15.378 [http-nio-8080-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:07:37.796 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:07:37.797 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:07:39.400 [http-nio-8080-exec-5] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /online/cgform/api/getData/f314cfd34aea4a6aacaa10fe5adbf828 ; 请求类型 >> GET . 
+2022-08-17 21:08:00.851 [http-nio-8080-exec-1] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /online/cgform/api/getData/f314cfd34aea4a6aacaa10fe5adbf828 ; 请求类型 >> GET . 
+2022-08-17 21:10:51.690 [http-nio-8080-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:10:51.692 [http-nio-8080-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:15:48.790 [http-nio-8080-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:15:48.792 [http-nio-8080-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:15:52.396 [http-nio-8080-exec-10] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-08-17 21:15:53.526 [http-nio-8080-exec-10] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-17 21:15:53.748 [http-nio-8080-exec-10] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-08-17 21:15:53.929 [http-nio-8080-exec-10] WARN  org.hibernate.id.UUIDHexGenerator:42 - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2022-08-17 21:15:53.936 [http-nio-8080-exec-10] INFO  org.hibernate.tool.hbm2ddl.SchemaExport:258 - HHH000227: Running hbm2ddl schema export
+2022-08-17 21:15:53.958 [http-nio-8080-exec-10] WARN  org.hibernate.orm.connections.pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-08-17 21:15:53.959 [http-nio-8080-exec-10] INFO  org.hibernate.orm.connections.pooling:115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai]
+2022-08-17 21:15:53.961 [http-nio-8080-exec-10] INFO  org.hibernate.orm.connections.pooling:124 - HHH10001001: Connection properties: {user=root, password=****}
+2022-08-17 21:15:53.962 [http-nio-8080-exec-10] INFO  org.hibernate.orm.connections.pooling:129 - HHH10001003: Autocommit mode: false
+2022-08-17 21:15:53.985 [http-nio-8080-exec-10] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-08-17 21:15:54.013 [http-nio-8080-exec-10] INFO  org.hibernate.orm.connections.access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6201de79] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-08-17 21:15:54.030 [http-nio-8080-exec-10] INFO  org.hibernate.orm.connections.access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6097d81f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-08-17 21:15:54.172 [http-nio-8080-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:15:54.173 [http-nio-8080-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:15:57.894 [http-nio-8080-exec-8] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /online/cgform/api/getData/44e984b13d3b4e70ac718ccf6a1839b9 ; 请求类型 >> GET . 
+2022-08-17 21:16:19.968 [http-nio-8080-exec-3] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /online/cgform/api/getData/44e984b13d3b4e70ac718ccf6a1839b9 ; 请求类型 >> GET . 
+2022-08-17 21:16:27.157 [http-nio-8080-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:16:27.158 [http-nio-8080-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:31:43.667 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660740396282 paused.
+2022-08-17 21:31:44.345 [SpringApplicationShutdownHook] INFO  org.jeecg.modules.message.websocket.WebSocket:74 - 【websocket消息】连接断开，总数为:0
+2022-08-17 21:31:44.373 [SpringApplicationShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:847 - Shutting down Quartz Scheduler
+2022-08-17 21:31:44.373 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660740396282 shutting down.
+2022-08-17 21:31:44.374 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660740396282 paused.
+2022-08-17 21:31:44.376 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660740396282 shutdown complete.
+2022-08-17 21:31:44.383 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:217 - dynamic-datasource start closing ....
+2022-08-17 21:31:44.387 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2029 - {dataSource-1} closing ...
+2022-08-17 21:31:44.391 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2101 - {dataSource-1} closed
+2022-08-17 21:31:44.393 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:221 - dynamic-datasource all closed success,bye
+2022-08-17 21:32:01.904 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.2.3.Final
+2022-08-17 21:32:01.914 [main] INFO  org.jeecg.JeecgSystemApplication:55 - Starting JeecgSystemApplication using Java 1.8.0_261 on LAPTOP-NF4LFBA5 with PID 16372 (D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\jeecg-module-system\jeecg-system-biz\target\classes started by YY in D:\code1\javaweb\jeecgboot-yy\jeecgboot-back)
+2022-08-17 21:32:01.915 [main] INFO  org.jeecg.JeecgSystemApplication:646 - The following 1 profile is active: "dev"
+2022-08-17 21:32:04.735 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-17 21:32:04.738 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-17 21:32:04.972 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 216 ms. Found 0 Redis repository interfaces.
+2022-08-17 21:32:05.159 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:23 -  ******************* init miniDao config [ begin ] *********************** 
+2022-08-17 21:32:05.159 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:25 -  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*
+2022-08-17 21:32:05.161 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:42 -  *******************  init miniDao config  [ end ] *********************** 
+2022-08-17 21:32:05.306 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2022-08-17 21:32:05.307 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2022-08-17 21:32:05.307 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2022-08-17 21:32:05.308 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2022-08-17 21:32:05.308 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2022-08-17 21:32:05.308 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2022-08-17 21:32:05.309 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2022-08-17 21:32:05.310 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2022-08-17 21:32:05.310 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2022-08-17 21:32:05.310 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2022-08-17 21:32:05.662 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#426c0486#9' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.668 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportShareDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.669 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#426c0486#8' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.670 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportMapDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.671 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#426c0486#7' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.672 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportLinkDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.673 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#426c0486#6' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.674 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDictItemDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.675 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#426c0486#5' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.676 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDictDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.677 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#426c0486#4' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.678 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbParamDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.678 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#426c0486#3' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.680 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbFieldDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.681 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#426c0486#2' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.681 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.682 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#426c0486#1' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.683 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDataSourceDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.684 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#426c0486' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.685 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.703 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.706 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.725 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.727 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.730 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'management.metrics.export.prometheus-org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.733 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusPropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.735 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'collectorRegistry' of type [io.prometheus.client.CollectorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.736 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.737 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.764 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusMeterRegistry' of type [io.micrometer.prometheus.PrometheusMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.768 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceMetrics' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration$$Lambda$435/1725151361] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.862 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.950 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.955 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jeecgBaseConfig' of type [org.jeecg.config.JeecgBaseConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:05.957 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroConfig' of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$a996abe9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:06.245 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:06.251 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$b3e8d4c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:06.259 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:06.323 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroRealm' of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:07.122 [main] INFO  org.jeecg.config.shiro.ShiroConfig:226 - ===============(1)创建缓存管理器RedisCacheManager
+2022-08-17 21:32:07.124 [main] INFO  org.jeecg.config.shiro.ShiroConfig:244 - ===============(2)创建RedisManager,连接Redis..
+2022-08-17 21:32:07.129 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:07.138 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:07.167 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:07.191 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$5d7341a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:07.197 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 21:32:07.651 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-08-17 21:32:07.664 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-17 21:32:07.665 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-08-17 21:32:07.665 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-08-17 21:32:07.893 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring embedded WebApplicationContext
+2022-08-17 21:32:07.893 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 5917 ms
+2022-08-17 21:32:08.055 [main] INFO  o.j.m.jmreport.config.init.JimuReportConfiguration:99 -  Init JimuReport Config [ Token Interceptor & Resource Locations ] 
+2022-08-17 21:32:08.774 [main] INFO  com.alibaba.druid.pool.DruidDataSource:994 - {dataSource-1,master} inited
+2022-08-17 21:32:08.775 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:132 - dynamic-datasource - load a datasource named [master] success
+2022-08-17 21:32:08.776 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:237 - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2022-08-17 21:32:11.873 [main] INFO  org.jeecg.common.modules.redis.config.RedisConfig:56 -  --- redis config init --- 
+2022-08-17 21:32:13.193 [main] INFO  org.quartz.impl.StdSchedulerFactory:1220 - Using default implementation for ThreadExecutor
+2022-08-17 21:32:13.196 [main] INFO  org.quartz.simpl.SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2022-08-17 21:32:13.208 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-08-17 21:32:13.208 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.2 created.
+2022-08-17 21:32:13.212 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2022-08-17 21:32:13.215 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2022-08-17 21:32:13.216 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MyScheduler' with instanceId 'LAPTOP-NF4LFBA51660743133195'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2022-08-17 21:32:13.216 [main] INFO  org.quartz.impl.StdSchedulerFactory:1374 - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+2022-08-17 21:32:13.217 [main] INFO  org.quartz.impl.StdSchedulerFactory:1378 - Quartz scheduler version: 2.3.2
+2022-08-17 21:32:13.217 [main] INFO  org.quartz.core.QuartzScheduler:2293 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@42ac309
+2022-08-17 21:32:15.041 [main] INFO  o.j.modules.jmreport.config.JmReportExecutorConfig:42 -  Init JimuReport Config [ 线程池 ] 
+2022-08-17 21:32:16.221 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-08-17 21:32:16.349 [main] INFO  org.jeecg.config.init.CodeGenerateDbConfig:46 -  Init CodeGenerate Config [ Get Db Config From application.yml ] 
+2022-08-17 21:32:17.584 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-08-17 21:32:17.769 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-17 21:32:17.798 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path '/jeecg-boot'
+2022-08-17 21:32:19.689 [cluster-ClusterId{value='62fcede174641122ae4072ac', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76 - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 4 common frames omitted
+2022-08-17 21:32:20.547 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:734 - Will start Quartz Scheduler [MyScheduler] in 1 seconds
+2022-08-17 21:32:20.570 [main] INFO  org.jeecg.JeecgSystemApplication:61 - Started JeecgSystemApplication in 19.564 seconds (JVM running for 21.774)
+2022-08-17 21:32:20.581 [main] INFO  org.jeecg.JeecgSystemApplication:37 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8080/jeecg-boot/
+	External: 	http://192.168.170.1:8080/jeecg-boot/
+	Swagger文档: 	http://192.168.170.1:8080/jeecg-boot/doc.html
+----------------------------------------------------------
+2022-08-17 21:32:21.552 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:750 - Starting Quartz Scheduler now, after delay of 1 seconds
+2022-08-17 21:32:21.933 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3644 - ClusterManager: detected 1 failed or restarted instances.
+2022-08-17 21:32:21.934 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3503 - ClusterManager: Scanning for instance "LAPTOP-NF4LFBA51660740396282"'s failed in-progress jobs.
+2022-08-17 21:32:21.945 [Quartz Scheduler [MyScheduler]] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660743133195 started.
+2022-08-17 21:32:22.267 [RMI TCP Connection(1)-192.168.170.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-17 21:32:22.268 [RMI TCP Connection(1)-192.168.170.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-08-17 21:32:22.273 [RMI TCP Connection(1)-192.168.170.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 5 ms
+2022-08-17 21:32:24.787 [http-nio-8080-exec-1] WARN  o.j.modules.jmreport.desreport.express.ExpressUtil:244 - 类没定义！
+2022-08-17 21:32:27.153 [http-nio-8080-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:625 - ---查询过滤器，Query规则---field:copy_type, rule:=, value:0
+2022-08-17 21:32:27.154 [http-nio-8080-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:249 - 当前字段有：[formTemplate, relationType, isTree, queryMode, isDesForm, lowAppId, formCategory, tableVersion, treeParentIdField, tableName, tableType, treeFieldname, updateBy, copyType, desFormCode, idSequence, subTableStr, id, hascopy, tabOrderNum, isCheckbox, isDbSynch, tableTxt, treeIdField, idType, formTemplateMobile, scroll, updateTime, physicId, createBy, createTime, copyVersion, themeTemplate, extConfigJson, isPage, taskId]
+2022-08-17 21:32:27.247 [http-nio-8080-exec-5] INFO  org.jeecg.config.filter.WebsocketFilter:39 - websocket连接 Token安全校验，Path = /jeecg-boot/websocket/e9ca23d68d884d4ebb19d07889727dae，token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjA3NDQwNjUsInVzZXJuYW1lIjoiYWRtaW4ifQ.7JWrbk5ZZ9k_pp_bBRkowIAXVDFggZs7BZPIXNseTZ4
+2022-08-17 21:32:27.356 [http-nio-8080-exec-5] INFO  org.jeecg.modules.message.websocket.WebSocket:64 - 【websocket消息】有新的连接，总数为:1
+2022-08-17 21:32:53.411 [http-nio-8080-exec-9] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:833 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2022-08-17 21:32:53.433 [http-nio-8080-exec-9] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:855 - -------通过数据库读取用户拥有的权限Perms------username： admin,Perms size: 4
+2022-08-17 21:32:53.434 [http-nio-8080-exec-9] INFO  org.jeecg.config.shiro.ShiroRealm:79 - ===============Shiro权限认证成功==============
+2022-08-17 21:34:44.669 [http-nio-8080-exec-6] INFO  o.j.c.generate.impl.CodeGenerateOneToMany:160 - code template data: {primaryKeyPolicy=java.lang.String, serialVersionUID=-339669898140103543, subTables=[], entityPackage=hrms, entityName=EeInfo, primaryKeyField=id, columns=[{"fieldDbName":"ee_id","fieldName":"eeId","filedComment":"员工编号","fieldType":"java.lang.String","fieldDbType":"string","classType":"text","classType_row":"text","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"N","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"text","fieldOrderNum":"6","isKey":"N","isShow":"Y","isShowList":"Y","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"","dictTable":"","dictText":""}, {"fieldDbName":"ee_name","fieldName":"eeName","filedComment":" 员工姓名","fieldType":"java.lang.String","fieldDbType":"string","classType":"text","classType_row":"text","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"Y","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"text","fieldOrderNum":"7","isKey":"N","isShow":"Y","isShowList":"Y","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"","dictTable":"","dictText":""}, {"fieldDbName":"ee_gender","fieldName":"eeGender","filedComment":" 性别","fieldType":"java.lang.Integer","fieldDbType":"int","classType":"list","classType_row":"list","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"Y","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"list","fieldOrderNum":"8","isKey":"N","isShow":"Y","isShowList":"Y","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"sex","dictTable":"","dictText":""}, {"fieldDbName":"ee_email","fieldName":"eeEmail","filedComment":" 邮箱","fieldType":"java.lang.String","fieldDbType":"string","classType":"text","classType_row":"text","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"Y","fieldLength":"120","fieldHref":"","fieldValidType":"e","fieldDefault":"","fieldShowType":"text","fieldOrderNum":"9","isKey":"N","isShow":"Y","isShowList":"Y","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"","dictTable":"","dictText":""}], tableVo={"entityPackage":"hrms","tableName":"ee_info","entityName":"EeInfo","ftlDescription":"员工信息","primaryKeyPolicy":"null","sequenceCode":"null","ftl_mode":"A","subTables":null,"fieldRowNum":"1","searchFieldNum":"1","fieldRequiredNum":"4"}, originalColumns=[{"fieldDbName":"id","fieldName":"id","filedComment":"主键","fieldType":"java.lang.String","fieldDbType":"string","classType":"text","classType_row":"text","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"N","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"text","fieldOrderNum":"0","isKey":"Y","isShow":"N","isShowList":"N","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"Y","queryMode":"single","dictField":"","dictTable":"","dictText":""}, {"fieldDbName":"create_by","fieldName":"createBy","filedComment":"创建人","fieldType":"java.lang.String","fieldDbType":"string","classType":"text","classType_row":"text","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"Y","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"text","fieldOrderNum":"1","isKey":"N","isShow":"N","isShowList":"N","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"","dictTable":"","dictText":""}, {"fieldDbName":"create_time","fieldName":"createTime","filedComment":"创建日期","fieldType":"java.util.Date","fieldDbType":"Datetime","classType":"datetime","classType_row":"datetime","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"Y","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"datetime","fieldOrderNum":"2","isKey":"N","isShow":"N","isShowList":"N","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"","dictTable":"","dictText":""}, {"fieldDbName":"update_by","fieldName":"updateBy","filedComment":"更新人","fieldType":"java.lang.String","fieldDbType":"string","classType":"text","classType_row":"text","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"Y","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"text","fieldOrderNum":"3","isKey":"N","isShow":"N","isShowList":"N","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"","dictTable":"","dictText":""}, {"fieldDbName":"update_time","fieldName":"updateTime","filedComment":"更新日期","fieldType":"java.util.Date","fieldDbType":"Datetime","classType":"datetime","classType_row":"datetime","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"Y","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"datetime","fieldOrderNum":"4","isKey":"N","isShow":"N","isShowList":"N","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"","dictTable":"","dictText":""}, {"fieldDbName":"sys_org_code","fieldName":"sysOrgCode","filedComment":"所属部门","fieldType":"java.lang.String","fieldDbType":"string","classType":"text","classType_row":"text","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"Y","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"text","fieldOrderNum":"5","isKey":"N","isShow":"N","isShowList":"N","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"","dictTable":"","dictText":""}, {"fieldDbName":"ee_id","fieldName":"eeId","filedComment":"员工编号","fieldType":"java.lang.String","fieldDbType":"string","classType":"text","classType_row":"text","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"N","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"text","fieldOrderNum":"6","isKey":"N","isShow":"Y","isShowList":"Y","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"","dictTable":"","dictText":""}, {"fieldDbName":"ee_name","fieldName":"eeName","filedComment":" 员工姓名","fieldType":"java.lang.String","fieldDbType":"string","classType":"text","classType_row":"text","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"Y","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"text","fieldOrderNum":"7","isKey":"N","isShow":"Y","isShowList":"Y","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"","dictTable":"","dictText":""}, {"fieldDbName":"ee_gender","fieldName":"eeGender","filedComment":" 性别","fieldType":"java.lang.Integer","fieldDbType":"int","classType":"list","classType_row":"list","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"Y","fieldLength":"120","fieldHref":"","fieldValidType":"","fieldDefault":"","fieldShowType":"list","fieldOrderNum":"8","isKey":"N","isShow":"Y","isShowList":"Y","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"sex","dictTable":"","dictText":""}, {"fieldDbName":"ee_email","fieldName":"eeEmail","filedComment":" 邮箱","fieldType":"java.lang.String","fieldDbType":"string","classType":"text","classType_row":"text","optionType":"","charmaxLength":"","precision":"null","scale":"null","nullable":"Y","fieldLength":"120","fieldHref":"","fieldValidType":"e","fieldDefault":"","fieldShowType":"text","fieldOrderNum":"9","isKey":"N","isShow":"Y","isShowList":"Y","isQuery":"N","uploadnum":"null","defaultVal":"null","sort":"N","readonly":"N","queryMode":"single","dictField":"","dictTable":"","dictText":""}], bussiPackage=com.yycor.modules, tableName=ee_info, ftl_description=员工信息}
+2022-08-17 21:34:44.673 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:54 -   load template from templateRootDir = 'D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\jeecg-module-system\jeecg-system-biz\target\classes\jeecg\code-template-online',stylePath ='jvxe.onetomany',  out GenerateRootDir:D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms
+2022-08-17 21:34:45.061 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\controller\${entityName}Controller.javai ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\controller\EeInfoController.java
+2022-08-17 21:34:45.135 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\entity\${entityName}.javai ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\entity\EeInfo.java
+2022-08-17 21:34:45.177 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\entity\[1-n]Entity.javai ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\entity\[1-n]Entity.java
+2022-08-17 21:34:45.932 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\mapper\${entityName}Mapper.javai ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\mapper\EeInfoMapper.java
+2022-08-17 21:34:45.936 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\mapper\[1-n]Mapper.javai ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\mapper\[1-n]Mapper.java
+2022-08-17 21:34:46.324 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\mapper\xml\${entityName}Mapper.xml ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\mapper\xml\EeInfoMapper.xml
+2022-08-17 21:34:46.333 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\mapper\xml\[1-n]Mapper.xml ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\mapper\xml\[1-n]Mapper.xml
+2022-08-17 21:34:46.552 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\service\I${entityName}Service.javai ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\service\IEeInfoService.java
+2022-08-17 21:34:46.557 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\service\[1-n]Service.javai ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\service\[1-n]Service.java
+2022-08-17 21:34:46.669 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\service\impl\${entityName}ServiceImpl.javai ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\service\impl\EeInfoServiceImpl.java
+2022-08-17 21:34:46.678 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\service\impl\[1-n]ServiceImpl.javai ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\service\impl\[1-n]ServiceImpl.java
+2022-08-17 21:34:46.788 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vo\${entityName}Page.javai ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vo\EeInfoPage.java
+2022-08-17 21:34:46.811 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3Native\${entityName}List.vuei ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3Native\EeInfoList.vue
+2022-08-17 21:34:46.834 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3Native\${entityName}__api.tsi ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3Native\EeInfo.api.ts
+2022-08-17 21:34:46.857 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3Native\${entityName}__data.tsi ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3Native\EeInfo.data.ts
+2022-08-17 21:34:46.874 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3Native\${entityName}_menu_insert.sql ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3Native\EeInfo_menu_insert.sql
+2022-08-17 21:34:46.897 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3Native\components\${entityName}Form.vuei ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3Native\components\EeInfoForm.vue
+2022-08-17 21:34:46.941 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3Native\components\${entityName}Modal.vuei ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3Native\components\EeInfoModal.vue
+2022-08-17 21:34:46.973 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3Native\components\[1-n]Form.vuei ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3Native\components\[1-n]Form.vue
+2022-08-17 21:34:47.129 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3\${entityName}List.vuei ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3\EeInfoList.vue
+2022-08-17 21:34:47.134 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3\${entityName}__api.tsi ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3\EeInfo.api.ts
+2022-08-17 21:34:47.153 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3\${entityName}__data.tsi ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3\EeInfo.data.ts
+2022-08-17 21:34:47.166 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3\${entityName}_menu_insert.sql ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3\EeInfo_menu_insert.sql
+2022-08-17 21:34:47.178 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3\components\${entityName}Modal.vuei ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3\components\EeInfoModal.vue
+2022-08-17 21:34:47.187 [http-nio-8080-exec-6] ERROR freemarker.runtime:60 - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> subTables[0]  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue3\\components\\${entityName}Modal.vuei" at line 57, column 30]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${subTables[0].entityName?uncap_first}  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue3\\components\\${entityName}Modal.vuei" at line 57, column 28]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.UnexpectedTypeException.newDescriptionBuilder(UnexpectedTypeException.java:85)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:48)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49)
+	at freemarker.core.Dot._eval(Dot.java:48)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Expression.evalAndCoerceToStringOrUnsupportedMarkup(Expression.java:139)
+	at freemarker.core.BuiltInForString.getTargetString(BuiltInForString.java:34)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:29)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:347)
+	at freemarker.core.Environment.visit(Environment.java:353)
+	at freemarker.core.Environment.process(Environment.java:326)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.jeecgframework.codegenerate.generate.util.b.a(FreemarkerHelper.java:94)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:118)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:86)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:61)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:47)
+	at org.jeecgframework.codegenerate.generate.impl.CodeGenerateOneToMany.generateCodeFile(CodeGenerateOneToMany.java:181)
+	at org.jeecgframework.codegenerate.generate.impl.CodeGenerateOneToMany.generateCodeFile(CodeGenerateOneToMany.java:196)
+	at org.jeecg.modules.online.cgform.service.a.d.generateOneToMany(OnlCgformHeadServiceImpl.java:1663)
+	at org.jeecg.modules.online.cgform.service.a.d$$FastClassBySpringCGLIB$$76271ae2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at org.jeecg.modules.online.cgform.service.a.d$$EnhancerBySpringCGLIB$$61263927.generateOneToMany(<generated>)
+	at org.jeecg.modules.online.cgform.c.a.b(OnlCgformApiController.java:1075)
+	at org.jeecg.modules.online.cgform.c.a$$FastClassBySpringCGLIB$$b70991a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at org.jeecg.modules.online.cgform.c.a$$EnhancerBySpringCGLIB$$8c6b728.b(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-17 21:34:47.193 [http-nio-8080-exec-6] ERROR org.jeecgframework.codegenerate.generate.impl.a.a:97 - freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> subTables[0]  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue3\\components\\${entityName}Modal.vuei" at line 57, column 30]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${subTables[0].entityName?uncap_first}  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue3\\components\\${entityName}Modal.vuei" at line 57, column 28]
+----
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> subTables[0]  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue3\\components\\${entityName}Modal.vuei" at line 57, column 30]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${subTables[0].entityName?uncap_first}  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue3\\components\\${entityName}Modal.vuei" at line 57, column 28]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.UnexpectedTypeException.newDescriptionBuilder(UnexpectedTypeException.java:85)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:48)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49)
+	at freemarker.core.Dot._eval(Dot.java:48)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Expression.evalAndCoerceToStringOrUnsupportedMarkup(Expression.java:139)
+	at freemarker.core.BuiltInForString.getTargetString(BuiltInForString.java:34)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:29)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:347)
+	at freemarker.core.Environment.visit(Environment.java:353)
+	at freemarker.core.Environment.process(Environment.java:326)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.jeecgframework.codegenerate.generate.util.b.a(FreemarkerHelper.java:94)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:118)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:86)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:61)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:47)
+	at org.jeecgframework.codegenerate.generate.impl.CodeGenerateOneToMany.generateCodeFile(CodeGenerateOneToMany.java:181)
+	at org.jeecgframework.codegenerate.generate.impl.CodeGenerateOneToMany.generateCodeFile(CodeGenerateOneToMany.java:196)
+	at org.jeecg.modules.online.cgform.service.a.d.generateOneToMany(OnlCgformHeadServiceImpl.java:1663)
+	at org.jeecg.modules.online.cgform.service.a.d$$FastClassBySpringCGLIB$$76271ae2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at org.jeecg.modules.online.cgform.service.a.d$$EnhancerBySpringCGLIB$$61263927.generateOneToMany(<generated>)
+	at org.jeecg.modules.online.cgform.c.a.b(OnlCgformApiController.java:1075)
+	at org.jeecg.modules.online.cgform.c.a$$FastClassBySpringCGLIB$$b70991a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at org.jeecg.modules.online.cgform.c.a$$EnhancerBySpringCGLIB$$8c6b728.b(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-17 21:34:47.199 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue3\components\[1-n]Form.vuei ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue3\components\[1-n]Form.vue
+2022-08-17 21:34:47.386 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue\${entityName}List.vuei ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue\EeInfoList.vue
+2022-08-17 21:34:47.399 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue\${entityName}_menu_insert.sql ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue\EeInfo_menu_insert.sql
+2022-08-17 21:34:47.435 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue\modules\${entityName}Form.vuei ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue\modules\EeInfoForm.vue
+2022-08-17 21:34:47.452 [http-nio-8080-exec-6] ERROR freemarker.runtime:60 - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> subTables[0]  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue\\modules\\${entityName}Form.vuei" at line 187, column 23]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${subTables[0].entityName?uncap_first}  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue\\modules\\${entityName}Form.vuei" at line 187, column 21]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.UnexpectedTypeException.newDescriptionBuilder(UnexpectedTypeException.java:85)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:48)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49)
+	at freemarker.core.Dot._eval(Dot.java:48)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Expression.evalAndCoerceToStringOrUnsupportedMarkup(Expression.java:139)
+	at freemarker.core.BuiltInForString.getTargetString(BuiltInForString.java:34)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:29)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:347)
+	at freemarker.core.Environment.visit(Environment.java:353)
+	at freemarker.core.Environment.process(Environment.java:326)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.jeecgframework.codegenerate.generate.util.b.a(FreemarkerHelper.java:94)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:118)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:86)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:61)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:47)
+	at org.jeecgframework.codegenerate.generate.impl.CodeGenerateOneToMany.generateCodeFile(CodeGenerateOneToMany.java:181)
+	at org.jeecgframework.codegenerate.generate.impl.CodeGenerateOneToMany.generateCodeFile(CodeGenerateOneToMany.java:196)
+	at org.jeecg.modules.online.cgform.service.a.d.generateOneToMany(OnlCgformHeadServiceImpl.java:1663)
+	at org.jeecg.modules.online.cgform.service.a.d$$FastClassBySpringCGLIB$$76271ae2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at org.jeecg.modules.online.cgform.service.a.d$$EnhancerBySpringCGLIB$$61263927.generateOneToMany(<generated>)
+	at org.jeecg.modules.online.cgform.c.a.b(OnlCgformApiController.java:1075)
+	at org.jeecg.modules.online.cgform.c.a$$FastClassBySpringCGLIB$$b70991a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at org.jeecg.modules.online.cgform.c.a$$EnhancerBySpringCGLIB$$8c6b728.b(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-17 21:34:47.456 [http-nio-8080-exec-6] ERROR org.jeecgframework.codegenerate.generate.impl.a.a:97 - freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> subTables[0]  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue\\modules\\${entityName}Form.vuei" at line 187, column 23]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${subTables[0].entityName?uncap_first}  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue\\modules\\${entityName}Form.vuei" at line 187, column 21]
+----
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> subTables[0]  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue\\modules\\${entityName}Form.vuei" at line 187, column 23]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${subTables[0].entityName?uncap_first}  [in template "jvxe\\onetomany\\java\\${bussiPackage}\\${entityPackage}\\vue\\modules\\${entityName}Form.vuei" at line 187, column 21]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.UnexpectedTypeException.newDescriptionBuilder(UnexpectedTypeException.java:85)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:48)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49)
+	at freemarker.core.Dot._eval(Dot.java:48)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Expression.evalAndCoerceToStringOrUnsupportedMarkup(Expression.java:139)
+	at freemarker.core.BuiltInForString.getTargetString(BuiltInForString.java:34)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:29)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:347)
+	at freemarker.core.Environment.visit(Environment.java:353)
+	at freemarker.core.Environment.process(Environment.java:326)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.jeecgframework.codegenerate.generate.util.b.a(FreemarkerHelper.java:94)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:118)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:86)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:61)
+	at org.jeecgframework.codegenerate.generate.impl.a.a.a(BaseCodeGenerate.java:47)
+	at org.jeecgframework.codegenerate.generate.impl.CodeGenerateOneToMany.generateCodeFile(CodeGenerateOneToMany.java:181)
+	at org.jeecgframework.codegenerate.generate.impl.CodeGenerateOneToMany.generateCodeFile(CodeGenerateOneToMany.java:196)
+	at org.jeecg.modules.online.cgform.service.a.d.generateOneToMany(OnlCgformHeadServiceImpl.java:1663)
+	at org.jeecg.modules.online.cgform.service.a.d$$FastClassBySpringCGLIB$$76271ae2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at org.jeecg.modules.online.cgform.service.a.d$$EnhancerBySpringCGLIB$$61263927.generateOneToMany(<generated>)
+	at org.jeecg.modules.online.cgform.c.a.b(OnlCgformApiController.java:1075)
+	at org.jeecg.modules.online.cgform.c.a$$FastClassBySpringCGLIB$$b70991a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at org.jeecg.modules.online.cgform.c.a$$EnhancerBySpringCGLIB$$8c6b728.b(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-17 21:34:47.468 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue\modules\${entityName}Modal.vuei ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue\modules\EeInfoModal.vue
+2022-08-17 21:34:47.484 [http-nio-8080-exec-6] INFO  org.jeecgframework.codegenerate.generate.impl.a.a:117 - [generate]	 template:jvxe\onetomany\java\${bussiPackage}\${entityPackage}\vue\modules\[1-n]Form.vuei ==> D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\yy-hrms\src/main/java\com\yycor\modules\hrms\vue\modules\[1-n]Form.vue
+2022-08-17 21:34:47.585 [http-nio-8080-exec-6] INFO  o.j.c.generate.impl.CodeGenerateOneToMany:182 - ----- jeecg-boot ---- generate  code  success =======> 主表名：ee_info
+2022-08-17 21:56:55.505 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660743133195 paused.
+2022-08-17 21:56:56.178 [SpringApplicationShutdownHook] INFO  org.jeecg.modules.message.websocket.WebSocket:74 - 【websocket消息】连接断开，总数为:0
+2022-08-17 21:56:56.201 [SpringApplicationShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:847 - Shutting down Quartz Scheduler
+2022-08-17 21:56:56.201 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660743133195 shutting down.
+2022-08-17 21:56:56.202 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660743133195 paused.
+2022-08-17 21:56:56.203 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660743133195 shutdown complete.
+2022-08-17 21:56:56.209 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:217 - dynamic-datasource start closing ....
+2022-08-17 21:56:56.212 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2029 - {dataSource-1} closing ...
+2022-08-17 21:56:56.228 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2101 - {dataSource-1} closed
+2022-08-17 21:56:56.229 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:221 - dynamic-datasource all closed success,bye
+2022-08-17 23:31:57.707 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.2.3.Final
+2022-08-17 23:31:57.720 [main] INFO  org.jeecg.JeecgSystemApplication:55 - Starting JeecgSystemApplication using Java 1.8.0_261 on LAPTOP-NF4LFBA5 with PID 5800 (D:\code1\javaweb\jeecgboot-yy\jeecgboot-back\jeecg-module-system\jeecg-system-biz\target\classes started by YY in D:\code1\javaweb\jeecgboot-yy\jeecgboot-back)
+2022-08-17 23:31:57.721 [main] INFO  org.jeecg.JeecgSystemApplication:646 - The following 1 profile is active: "dev"
+2022-08-17 23:32:03.677 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-17 23:32:03.682 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-17 23:32:03.925 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 221 ms. Found 0 Redis repository interfaces.
+2022-08-17 23:32:04.129 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:23 -  ******************* init miniDao config [ begin ] *********************** 
+2022-08-17 23:32:04.129 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:25 -  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*
+2022-08-17 23:32:04.131 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:42 -  *******************  init miniDao config  [ end ] *********************** 
+2022-08-17 23:32:04.281 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2022-08-17 23:32:04.282 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2022-08-17 23:32:04.282 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2022-08-17 23:32:04.283 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2022-08-17 23:32:04.283 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2022-08-17 23:32:04.284 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2022-08-17 23:32:04.284 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2022-08-17 23:32:04.284 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2022-08-17 23:32:04.285 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2022-08-17 23:32:04.285 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2022-08-17 23:32:04.689 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#9' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.696 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportShareDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.697 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#8' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.699 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportMapDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.700 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#7' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.702 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportLinkDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.703 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#6' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.705 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDictItemDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.706 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#5' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.707 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDictDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.708 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#4' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.710 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbParamDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.711 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#3' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.713 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbFieldDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.714 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#2' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.715 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.716 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994#1' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.718 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDataSourceDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.719 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#5aea8994' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.720 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.743 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.747 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.776 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.778 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.783 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'management.metrics.export.prometheus-org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.788 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusPropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.793 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'collectorRegistry' of type [io.prometheus.client.CollectorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.795 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.797 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.840 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusMeterRegistry' of type [io.micrometer.prometheus.PrometheusMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.846 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceMetrics' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration$$Lambda$435/481952545] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:04.977 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:05.075 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:05.079 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jeecgBaseConfig' of type [org.jeecg.config.JeecgBaseConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:05.082 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroConfig' of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$55b4a4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:05.412 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:05.418 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$fad7323] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:05.426 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:05.476 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroRealm' of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:06.346 [main] INFO  org.jeecg.config.shiro.ShiroConfig:226 - ===============(1)创建缓存管理器RedisCacheManager
+2022-08-17 23:32:06.348 [main] INFO  org.jeecg.config.shiro.ShiroConfig:244 - ===============(2)创建RedisManager,连接Redis..
+2022-08-17 23:32:06.353 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:06.361 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:06.392 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:06.420 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$b937e002] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:06.424 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-17 23:32:06.892 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-08-17 23:32:06.906 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-17 23:32:06.906 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-08-17 23:32:06.907 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-08-17 23:32:07.194 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring embedded WebApplicationContext
+2022-08-17 23:32:07.194 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 9409 ms
+2022-08-17 23:32:07.387 [main] INFO  o.j.m.jmreport.config.init.JimuReportConfiguration:99 -  Init JimuReport Config [ Token Interceptor & Resource Locations ] 
+2022-08-17 23:32:08.185 [main] INFO  com.alibaba.druid.pool.DruidDataSource:994 - {dataSource-1,master} inited
+2022-08-17 23:32:08.186 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:132 - dynamic-datasource - load a datasource named [master] success
+2022-08-17 23:32:08.186 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:237 - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2022-08-17 23:32:11.365 [main] INFO  org.jeecg.common.modules.redis.config.RedisConfig:56 -  --- redis config init --- 
+2022-08-17 23:32:12.666 [main] INFO  org.quartz.impl.StdSchedulerFactory:1220 - Using default implementation for ThreadExecutor
+2022-08-17 23:32:12.669 [main] INFO  org.quartz.simpl.SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2022-08-17 23:32:12.680 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-08-17 23:32:12.680 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.2 created.
+2022-08-17 23:32:12.684 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2022-08-17 23:32:12.686 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2022-08-17 23:32:12.687 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MyScheduler' with instanceId 'LAPTOP-NF4LFBA51660750332668'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2022-08-17 23:32:12.688 [main] INFO  org.quartz.impl.StdSchedulerFactory:1374 - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+2022-08-17 23:32:12.688 [main] INFO  org.quartz.impl.StdSchedulerFactory:1378 - Quartz scheduler version: 2.3.2
+2022-08-17 23:32:12.689 [main] INFO  org.quartz.core.QuartzScheduler:2293 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@f472245
+2022-08-17 23:32:14.452 [main] INFO  o.j.modules.jmreport.config.JmReportExecutorConfig:42 -  Init JimuReport Config [ 线程池 ] 
+2022-08-17 23:32:15.668 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-08-17 23:32:15.802 [main] INFO  org.jeecg.config.init.CodeGenerateDbConfig:46 -  Init CodeGenerate Config [ Get Db Config From application.yml ] 
+2022-08-17 23:32:17.000 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-08-17 23:32:17.178 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-17 23:32:17.201 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path '/jeecg-boot'
+2022-08-17 23:32:19.101 [cluster-ClusterId{value='62fd0a00347ac5187af7cde9', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76 - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 4 common frames omitted
+2022-08-17 23:32:19.939 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:734 - Will start Quartz Scheduler [MyScheduler] in 1 seconds
+2022-08-17 23:32:19.957 [main] INFO  org.jeecg.JeecgSystemApplication:61 - Started JeecgSystemApplication in 23.335 seconds (JVM running for 26.172)
+2022-08-17 23:32:19.965 [main] INFO  org.jeecg.JeecgSystemApplication:37 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8080/jeecg-boot/
+	External: 	http://192.168.170.1:8080/jeecg-boot/
+	Swagger文档: 	http://192.168.170.1:8080/jeecg-boot/doc.html
+----------------------------------------------------------
+2022-08-17 23:32:20.942 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:750 - Starting Quartz Scheduler now, after delay of 1 seconds
+2022-08-17 23:32:21.225 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3644 - ClusterManager: detected 1 failed or restarted instances.
+2022-08-17 23:32:21.226 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3503 - ClusterManager: Scanning for instance "LAPTOP-NF4LFBA51660743133195"'s failed in-progress jobs.
+2022-08-17 23:32:21.234 [Quartz Scheduler [MyScheduler]] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler MyScheduler_$_LAPTOP-NF4LFBA51660750332668 started.
+2022-08-17 23:32:21.700 [RMI TCP Connection(4)-192.168.170.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-17 23:32:21.700 [RMI TCP Connection(4)-192.168.170.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-08-17 23:32:21.703 [RMI TCP Connection(4)-192.168.170.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 2 ms
